@@ -1,0 +1,20 @@
+[package]
+name = "snow-dapp"
+version = "0.1.0"
+description = "SNOW token staking and governance"
+edition = "2021"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = ["anchor-lang/default", "anchor-spl/default"]
+
+[dependencies]
+anchor-lang = "0.28.0"
+anchor-spl = "0.28.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "snow_dapp"
