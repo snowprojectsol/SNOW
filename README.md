@@ -19,6 +19,3 @@ Solana DApp for SNOW token ecosystem.
 - frosty_swap: AMM for SNOW pairs
 - arctic_nfts: NFT marketplace
 
-## Networks
-- Mainnet: ProgramId: snowDApp111111111111111111111111111
-- Devnet: ProgramId: snowDev1111111111111111111111111111
