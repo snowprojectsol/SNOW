@@ -1,0 +1,11 @@
+target/
+dist/
+build/
+node_modules/
+.anchor/
+.DS_Store
+*.log
+test-ledger/
+.env
+.idea/
+.vscode/
