@@ -1,13 +1,24 @@
 # SNOW DApp
 
-A Solana DApp for the SNOW token ecosystem.
+Solana DApp for SNOW token ecosystem.
 
 ## Features
-- SNOW token staking
-- SNOW token swaps
-- Governance voting (Iceberg DAO)
+- SNOW Token Staking
+- Frosty Swap AMM
+- Iceberg DAO Governance
+- Arctic NFTs
 
 ## Tech Stack
-- Anchor Framework
-- React + TypeScript
-- Solana Web3.js
+- Anchor 0.28.0
+- React 18.2.0
+- TypeScript 5.0.0
+- Solana Web3.js 1.87.6
+
+## Programs
+- snow_dapp: SNOW staking and governance
+- frosty_swap: AMM for SNOW pairs
+- arctic_nfts: NFT marketplace
+
+## Networks
+- Mainnet: ProgramId: snowDApp111111111111111111111111111
+- Devnet: ProgramId: snowDev1111111111111111111111111111
