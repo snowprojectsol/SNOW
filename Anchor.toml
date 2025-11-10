@@ -1,0 +1,14 @@
+[provider]
+cluster = "mainnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.mainnet]
+snow_dapp = "snowDApp111111111111111111111111111"
+frosty_swap = "frostSwap11111111111111111111111111"
+arctic_nfts = "arcticNFT11111111111111111111111111"
+
+[programs.devnet]
+snow_dapp = "snowDev1111111111111111111111111111"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
